@@ -4,11 +4,13 @@ body{
     justify-content: center;
     height: 100vh;
     background-color: lightgray;
+    flex-wrap: wrap;
+    
 }
 
 .gallery{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 90%;
     flex-wrap: wrap;
     background-color: black;
@@ -18,36 +20,38 @@ body{
     
 }
 
+
+ img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
 .gallery-item{
     flex-grow: 1;
     margin: 10px;
     
 }
 
-img{
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
-}
+
 
 .gallery-item1{
     flex-grow: 1;
-    margin: 20px;
+    margin: 10px;
 }
 
 .gallery-item2{
     flex-grow: 1;
-    margin: 20px;
+    margin: 10px;
 }
 
 .gallery-item3{
     flex-grow: 1;
-    margin: 20px;
+    margin: 10px;
 }
 
 .gallery-item4{
     flex-grow: 1;
-    margin: 20px;
+    margin: 10px;
 }
 
 
