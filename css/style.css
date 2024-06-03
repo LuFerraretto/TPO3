@@ -15,26 +15,6 @@ body{
     
 }
 
-.left{
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-}
- .left img{
-    height: 200px;
-    width: 250px;
-    border-radius: 20px;
- }
-
-.right{
-    justify-content: space-between;
-}
-
-.right img{
-    height: 200px;
-    width: 150px;
-    border-radius: 20px;
-}
 
 .gallery-item{
     flex-grow: 1;
