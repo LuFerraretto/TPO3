@@ -8,17 +8,46 @@ body{
 
 .gallery{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     width: 90%;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    background-color: black;
+    
+    
     
     
 }
 
-
 .gallery-item{
     flex-grow: 1;
     margin: 10px;
+    
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.gallery-item1{
+    flex-grow: 1;
+    margin: 20px;
+}
+
+.gallery-item2{
+    flex-grow: 1;
+    margin: 20px;
+}
+
+.gallery-item3{
+    flex-grow: 1;
+    margin: 20px;
+}
+
+.gallery-item4{
+    flex-grow: 1;
+    margin: 20px;
 }
 
 
